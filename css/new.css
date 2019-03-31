@@ -136,6 +136,8 @@ body{
     font-size: x-large;
     color: rgb(136, 251, 255);
 }
+
+
 @media (max-width:1000px)
 {
     #header

@@ -41,7 +41,7 @@
 
 
       <div class="panel panel-default  each-heading">
-          <div class="panel-heading" style="background:#09F">
+          <div class="panel-heading " style="background:rgba(8, 195, 219, 0.562)">
             <h4 class="panel-title" style="font-size:24px;text-align:center">
               <a data-toggle="collapse" data-parent="#accordion" href="#hack"><strong class="heading-text">HACK ON</strong></a>
             </h4>
@@ -108,7 +108,7 @@
 
 
     <div class="panel panel-default  each-heading">
-      <div class="panel-heading" style="background:#09F">
+      <div class="panel-heading" style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#aws"><strong class="heading-text">WORKSHOP ON AMAZON WEB SERVICES</strong></a>
         </h4>
@@ -153,8 +153,9 @@ event which will be coming soon.
 </div>
       </div>
     </div>
+
     <div class="panel panel-default each-heading" >
-      <div class="panel-heading heading" style=" background:#09F">
+      <div class="panel-heading heading"style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#android"><strong class="heading-text">WORKSHOP ON APP DEVELOPMENT</strong></a>
         </h4>
@@ -189,8 +190,9 @@ An understanding of desirable practices in App development. Looking forward to c
 Under the guidance of Mr Saravjeet the workshop was organised by the students of acm society Shalvi Saxena and Hitesh Bansal.</div></div>
       </div>
     </div>
+
     <div class="panel panel-default  each-heading" >
-      <div class="panel-heading" style="background:#09F">
+      <div class="panel-heading"style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#FDP"><strong class="heading-text">FACULTY DEVELOPMENT PROGRAM</strong></a>
         </h4>
@@ -226,10 +228,8 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
     </div>
     
     
-    
-    
     <div class="panel panel-default  each-heading" >
-      <div class="panel-heading"style=" background:#09F">
+      <div class="panel-heading" style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#technovation"><strong class="heading-text">TECHNOVATION</strong></a>
         </h4>
@@ -255,10 +255,6 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
         ACM Student Chapter Chitkara University organized an event Technovation in which Third year students of BE CSE displayed their Integrated Projects in different categories. The event started with the arrival of highly reputed Externals from various domains ranging from academicians to corporate world. Venues were embellished with Poster Presentations. The students showcased their Projects. The evaluations of students were highly appreciated by the examiners. Date: May 26, 2017</div></div>
       </div>
     </div>
-    
-    
-
-
     
 </div>
 </div>
@@ -286,7 +282,8 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
 <script>
     let toggleFlag = true;
     const toggle = document.getElementById('toggle');
-    const nav = document.getElementById('nav')
+    const nav = document.getElementById('nav');
+    const arrow = document.getElementById('arrow');
     toggle.addEventListener('click',function(e){
         if(toggleFlag)
         {
@@ -301,6 +298,22 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
             nav.classList.remove('active')
         }
     })
+
+    let arrowFlag = true;
+    const blink = ()=>{
+      if(arrowFlag)
+      {
+        arrow.style.display = 'block'
+        arrowFlag=false;
+      }
+      else
+      {
+        arrow.style.display = 'none'
+        arrowFlag = true;
+      }
+    }
+    setInterval(blink,500)
+
 </script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
      <script>
