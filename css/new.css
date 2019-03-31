@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Poppins', sans-serif;
-    background: url(../pics/bg.png);
+    background: linear-gradient(45deg,rgb(0,199,252),#CE1815);
     background-attachment: fixed;
     /* overflow: hidden; */
 }
@@ -13,7 +13,7 @@ body{
     max-width:1200px;
     margin: 20px auto;
     padding: 10px;
-    background: rgb(0,0,0,.2);
+    background: rgb(0,199,252,.2);
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
@@ -76,8 +76,7 @@ body{
 {
     width:100%;
     height: 100vh;
-    background: black;
-    background: linear-gradient(45deg,rgb(0,199,252),#CE1815)
+    
 }
 #title
 {
@@ -110,6 +109,27 @@ body{
     margin-left: -2.5%; /* Half the width */
 }
 
+#container
+{
+    margin:1% 5%;
+}
+/* each event div */
+.each-heading
+{
+    background:url(../pics/k.jpg);
+    margin:2% 0;
+    background-size:cover
+}
+/* each event heading */
+.heading
+{
+    color:white;
+    background:#09F;
+}
+.heading-text
+{
+    color:white;
+}
 @media (max-width:1000px)
 {
     #header
@@ -182,6 +202,8 @@ body{
         margin-top: -5%; /* Half the height */
         margin-left: -2.5%; /* Half the width */
     }
-
-
+    #container
+    {
+        margin:1% 1%;
+    }
 }
