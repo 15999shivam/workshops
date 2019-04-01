@@ -15,7 +15,7 @@
     <div id="particles-js">
       <img src="./pics/workshop.png" id="title"/>
         <img src="./pics/tools.png" id="tools"/>
-        <a href="#here"><span  class="arrow-text">Scroll Down</span>
+        <a ><span  class="arrow-text" id="here2">Scroll Down</span>
         <img src="./pics/arrow1.png" id="arrow" /></a>
     </div>
     <div style="position: absolute;top:0;left:0;width: 100%;position:fixed;z-index: 100;">
@@ -35,7 +35,7 @@
         </header>
     </div>
   
-    <a name="here"></a>
+    <a  class="here2"></a>
     <div id="container">
   
   <div class="panel-group" id="accordion" >
@@ -94,14 +94,6 @@
     </div>
     </div>
     
-    
-    
-    
-        
-    
-    
-    
-        
         
       </div> 
     </div>
@@ -280,11 +272,14 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
 <script src="./js/particles.js"></script>
 <script src="./js/app.js"></script>
 
-<script>
+<script type="module">
+  import jump from './node_modules/jump.js/dist/jump.module.js';
     let toggleFlag = true;
     const toggle = document.getElementById('toggle');
     const nav = document.getElementById('nav');
     const arrow = document.getElementById('arrow');
+    const scroll = document.getElementById('here2');
+    
     toggle.addEventListener('click',function(e){
         if(toggleFlag)
         {
@@ -314,6 +309,10 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
       }
     }
     setInterval(blink,500)
+
+    scroll.addEventListener('click',()=>{
+      jump('.here2');
+    })
 
 </script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
