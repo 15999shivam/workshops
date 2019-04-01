@@ -223,7 +223,7 @@ body{
         margin:0;
         padding:0;
         font-family: 'Baloo Chettan', cursive;
-        background: linear-gradient(45deg,rgb(0,199,252),#CE1815) fixed;
+        background: linear-gradient(45deg,rgb(0,199,252),#CE1815) no-repeat center top fixed;
        
        
          /* overflow: hidden;  */
