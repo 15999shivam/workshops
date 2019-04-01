@@ -1,3 +1,16 @@
+/* baloo-regular - devanagari_latin */
+@font-face {
+    font-family: 'Baloo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/baloo-v4-devanagari_latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Baloo Regular'), local('Baloo-Regular'),
+         url('../fonts/baloo-v4-devanagari_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/baloo-v4-devanagari_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/baloo-v4-devanagari_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/baloo-v4-devanagari_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/baloo-v4-devanagari_latin-regular.svg#Baloo') format('svg'); /* Legacy iOS */
+  }
 body{
     margin:0;
     padding:0;
@@ -276,6 +289,12 @@ body{
         margin-top: -3%; /* Half the height */
         margin-left: -3%; /* Half the width */
     }
+    .text-bg
+    {
+        background: rgba(12, 151, 161, 0.315);
+        font-size: large;
+        color: rgb(136, 251, 255);
+    }
     .arrow-text
     {
         position: absolute;
@@ -296,21 +315,21 @@ body{
         border: 1px solid rgb(0,0,0);
         font-size: small;
         width:40%;
-        height:9%;
+        height:10%;
         font-weight: 1000;
         color:rgb(0,0,0,0.8);
         text-justify: auto;
     }
     #e1
     {
-        top:55%;
+        top:51%;
         left:7.5%;
         text-align: center;
         padding-top: 6%;
     }
     #e2
     {
-        top:65%;
+        top:63%;
         left:7.5%;
         text-align: center
 
@@ -326,14 +345,14 @@ body{
     }
     #e4
     {
-        top:55%;
+        top:51%;
         left:53.5%;
         text-align: center
 
     }
     #e5
     {
-        top:65%;
+        top:63%;
         left:53.5%;
         text-align: center;
         padding-top: 6%;
