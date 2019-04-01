@@ -223,8 +223,18 @@ body{
         margin:0;
         padding:0;
         font-family: 'Baloo Chettan', cursive;
-        background: linear-gradient(45deg,rgb(0,199,252),#CE1815) no-repeat center top fixed;
-       
+        background: linear-gradient(45deg,rgb(0,199,252),#CE1815) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: -1;
+        -webkit-transform: translateZ(0);
+        pointer-events: none;
        
          /* overflow: hidden;  */
     }
