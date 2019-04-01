@@ -27,7 +27,7 @@ body{
     max-width:1200px;
     margin: 20px auto;
     padding: 10px;
-    background: rgba(0, 197, 252, 0.356);
+    background: rgba(0, 197, 252, 0.171);
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
@@ -73,7 +73,7 @@ body{
     padding:10px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #fff;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #nav ul li a.active,
@@ -159,7 +159,8 @@ body{
     width:10%;
     height: 15%;
     z-index: 1000;
-    color: #FFFFFF; text-decoration: none;
+    color: rgba(77, 67, 67, 0.897);
+    ; text-decoration: none;
     margin-top: -5%; /* Half the height */
     margin-left: -2.5%; /* Half the width */
 }
@@ -236,7 +237,7 @@ body{
         cursor: pointer;
         text-align: center;
         font-size:30px;
-        color: rgb(0,199,252);
+        color: rgb(0, 180, 230);
     }
     .menu-toggle:before
     {
@@ -305,7 +306,7 @@ body{
         left: 50%;
         width:25%;
         height: 10%;
-        color: #FFFFFF;
+        color: rgba(77, 67, 67, 0.897);
         text-decoration: none;
         margin-top: -13%; /* Half the height */
         margin-left: -9%; /* Half the width */
