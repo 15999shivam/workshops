@@ -296,16 +296,17 @@ body{
         border: 1px solid rgb(0,0,0);
         font-size: small;
         width:40%;
-        height:8%;
+        height:9%;
         font-weight: 1000;
-        color:rgb(0,0,0,0.8)
+        color:rgb(0,0,0,0.8);
+        text-justify: auto;
     }
     #e1
     {
         top:55%;
         left:7.5%;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 6%;
     }
     #e2
     {
@@ -319,7 +320,7 @@ body{
         top:75%;
         left:7.5%;
         text-align: center;
-        padding-top: 2%;
+        padding-top: 4%;
 
 
     }
@@ -335,7 +336,7 @@ body{
         top:65%;
         left:53.5%;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 6%;
 
 
     }
@@ -344,7 +345,7 @@ body{
         top:75%;
         left:53.5%;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 6%;
 
 
     }
