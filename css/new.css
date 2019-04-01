@@ -149,6 +149,59 @@ body{
     margin-top: -5%; /* Half the height */
     margin-left: -2.5%; /* Half the width */
 }
+.event
+{
+    position: absolute;
+   background: rgba(213, 249, 252, 0.3);
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 15px;
+    font-size: large;
+    width:27%;
+     font-weight: 1000;
+     color:rgb(0,0,0,0.8)
+}
+#e1
+{
+    top:50%;
+    left:7%;
+    text-align: center
+}
+#e2
+{
+    top:65%;
+    left:7%;
+    text-align: center
+
+}
+#e3
+{
+    top:80%;
+    left:7%;
+    text-align: center
+
+}
+#e4
+{
+    top:50%;
+    left:66.1%;
+    text-align: center
+
+}
+#e5
+{
+    top:65%;
+    left:66.1%;
+    text-align: center
+
+}
+#e6
+{
+    top:80%;
+    left:66.1%;
+    text-align: center
+
+}
 
 @media (max-width:1000px)
 {
@@ -196,17 +249,17 @@ body{
     {
         
         position: absolute;
-        top: 35%;
+        top: 25%;
         left: 50%;
-        width:75%;
+        width:80%;
         height: 20%;
       margin-top: -20%;
-      margin-left:-37.5%;
+      margin-left:-40%;
     }
     #tools
     {
         position :absolute;
-        top: 65%;
+        top: 45%;
         left: 50%;
         width:40%;
         height: 15%;
@@ -216,24 +269,86 @@ body{
     #arrow
     {
         position: absolute;
-        top: 90%;
+        top: 93%;
         left: 50%;
-        width:10%;
-        height: 10%;
-        margin-top: -5%; /* Half the height */
-        margin-left: -5%; /* Half the width */
+        width:6%;
+        height: 6%;
+        margin-top: -3%; /* Half the height */
+        margin-left: -3%; /* Half the width */
     }
     .arrow-text
     {
         position: absolute;
-        top: 90%;
+        top: 94%;
         left: 50%;
         width:25%;
         height: 10%;
-        color: #FFFFFF; text-decoration: none;
+        color: #FFFFFF;
+        text-decoration: none;
         margin-top: -13%; /* Half the height */
         margin-left: -9%; /* Half the width */
     }
+    .event
+    {
+        position: absolute;
+        background: rgba(213, 249, 252, 0.3);
+        padding: 0.5% 0.5% 0.5% 0.5%;
+        border: 1px solid rgb(0,0,0);
+        font-size: small;
+        width:40%;
+        height:8%;
+        font-weight: 1000;
+        color:rgb(0,0,0,0.8)
+    }
+    #e1
+    {
+        top:55%;
+        left:7.5%;
+        text-align: center;
+        padding-top: 5%;
+    }
+    #e2
+    {
+        top:65%;
+        left:7.5%;
+        text-align: center
+
+    }
+    #e3
+    {
+        top:75%;
+        left:7.5%;
+        text-align: center;
+        padding-top: 2%;
+
+
+    }
+    #e4
+    {
+        top:55%;
+        left:53.5%;
+        text-align: center
+
+    }
+    #e5
+    {
+        top:65%;
+        left:53.5%;
+        text-align: center;
+        padding-top: 5%;
+
+
+    }
+    #e6
+    {
+        top:75%;
+        left:53.5%;
+        text-align: center;
+        padding-top: 5%;
+
+
+    }
+
 
     #container
     {

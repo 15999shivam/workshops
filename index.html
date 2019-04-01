@@ -18,6 +18,15 @@
         <a ><span  class="arrow-text" id="here2">Scroll Down</span>
         <img src="./pics/arrow1.png" id="arrow" /></a>
     </div>
+    <div id="events">
+      <div class="event" id="e1">Hack ON</div>
+      <div class="event" id="e2">WORKSHOP ON AMAZON WEB SERVICES</div>
+      <div class="event" id="e3">WORKSHOP ON APP DEVELOPMENT
+        </div>
+      <div class="event" id="e4">FACULTY DEVELOPMENT PROGRAM</div>
+      <div class="event" id="e5">TECHNOVATION</div>
+      <div class="event" id="e6">More To Come !!!</div>
+    </div>
     <div style="position: absolute;top:0;left:0;width: 100%;position:fixed;z-index: 100;">
         <header id = "header">
                 <img src="pics/Chitkara-ACM-Chapter-logo-new.png" class="logo">
@@ -35,13 +44,13 @@
         </header>
     </div>
   
-    <a  class="here2"></a>
+    
     <div id="container">
   
   <div class="panel-group" id="accordion" >
 
 
-      <div class="panel panel-default  each-heading">
+      <div class="panel panel-default  each-heading hack">
           <div class="panel-heading " style="background:rgba(8, 195, 219, 0.562)">
             <h4 class="panel-title" style="font-size:24px;text-align:center">
               <a data-toggle="collapse" data-parent="#accordion" href="#hack"><strong class="heading-text">HACK ON</strong></a>
@@ -100,7 +109,7 @@
 
 
 
-    <div class="panel panel-default  each-heading">
+    <div class="panel panel-default  each-heading aws">
       <div class="panel-heading" style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#aws"><strong class="heading-text">WORKSHOP ON AMAZON WEB SERVICES</strong></a>
@@ -147,7 +156,7 @@ event which will be coming soon.
       </div>
     </div>
 
-    <div class="panel panel-default each-heading" >
+    <div class="panel panel-default each-heading app" >
       <div class="panel-heading heading"style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#android"><strong class="heading-text">WORKSHOP ON APP DEVELOPMENT</strong></a>
@@ -184,7 +193,7 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
       </div>
     </div>
 
-    <div class="panel panel-default  each-heading" >
+    <div class="panel panel-default  each-heading faculty" >
       <div class="panel-heading"style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#FDP"><strong class="heading-text">FACULTY DEVELOPMENT PROGRAM</strong></a>
@@ -221,7 +230,7 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
     </div>
     
     
-    <div class="panel panel-default  each-heading" >
+    <div class="panel panel-default  each-heading tech" >
       <div class="panel-heading" style="background:rgba(8, 195, 219, 0.562)">
         <h4 class="panel-title" style="font-size:24px;text-align:center">
           <a data-toggle="collapse" data-parent="#accordion" href="#technovation"><strong class="heading-text">TECHNOVATION</strong></a>
@@ -313,6 +322,37 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
     scroll.addEventListener('click',()=>{
       jump('.here2');
     })
+
+    const e1 = document.getElementById('e1');
+    
+    const e2 = document.getElementById('e2');
+    
+    const e3 = document.getElementById('e3');
+    
+    const e4 = document.getElementById('e4');
+    
+    const e5 = document.getElementById('e5');
+    
+    //const e6 = document.getElementById('e6');
+
+
+    e1.addEventListener('click',()=>{
+      jump('.hack');
+    })
+
+    e2.addEventListener('click',()=>{
+      jump('.aws');
+    })
+    e3.addEventListener('click',()=>{
+      jump('.app');
+    })
+    e4.addEventListener('click',()=>{
+      jump('.faculty');
+    })
+    e5.addEventListener('click',()=>{
+      jump('.tech');
+    })
+
 
 </script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
