@@ -19,13 +19,14 @@
         <img src="./pics/arrow1.png" id="arrow" /></a>
     </div>
     <div id="events">
-      <div class="event" id="e1">Hack ON</div>
-      <div class="event" id="e2">WORKSHOP ON AMAZON WEB SERVICES</div>
-      <div class="event" id="e3">WORKSHOP ON APP DEVELOPMENT
+        <div class="event" id="e1">ANDROID WITH MACHINE LEARNING</div>
+      <div class="event" id="e2">Hack ON</div>
+      <div class="event" id="e3">WORKSHOP ON AMAZON WEB SERVICES</div>
+      <div class="event" id="e4">WORKSHOP ON APP DEVELOPMENT
         </div>
-      <div class="event" id="e4">FACULTY DEVELOPMENT PROGRAM</div>
-      <div class="event" id="e5">TECHNOVATION</div>
-      <div class="event" id="e6">More To Come !!!</div>
+      <div class="event" id="e5">FACULTY DEVELOPMENT PROGRAM</div>
+      <div class="event" id="e6">TECHNOVATION</div>
+      
     </div>
     <div style="position: absolute;top:0;left:0;width: 100%;position:fixed;z-index: 100;">
         <header id = "header">
@@ -49,6 +50,102 @@
   
   <div class="panel-group" id="accordion" >
 
+
+    <div class="panel panel-default  each-heading andml">
+      <div class="panel-heading " style="background:rgba(8, 195, 219, 0.562)">
+        <h4 class="panel-title" style="font-size:24px;text-align:center">
+          <a data-toggle="collapse" data-parent="#accordion" href="#hack"><strong class="heading-text">ANDROID WITH MACHINE LEARNING</strong></a>
+        </h4>
+      </div>
+      <div id="andml" class="panel-collapse collapse in">
+        <div class="panel-body">
+        
+        
+        <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (1).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (18).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (4).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (5).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+     
+      
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (8).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (9).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (10).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (11).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (12).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (13).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (14).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+     
+      <div class="swiper-slide" >
+        <div class="imgbx">
+          <img src="pics/android (16).jpg" class="img-responsive" style="width:90vh">
+        </div>
+      </div>
+     
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+        
+        <div class="text text-bg" >
+        <p>"You don't have to be great to start, but you have to start to be great."
+
+          ACM Student Chapter,  Chitkara University organized a 10-day workshop on Android with Machine Learning to provide an opportunity to all the budding android enthusiasts to witness an in-depth knowledge of Android and take their skills to a whole new level. The instructors for the workshop were the co-founder of LearnCodeOnline , Mr. Saksham Choudhary, who is one of the world's renowned cybersecurity Researcher, along with Mr. Nitesh Kumar, who is the senior-developer in LearnCodeOnline.The workshop instilled a belief in learning by doing, as the students were made to develop many mobile applications, which were facilitated by Mr. Nitesh, who also made sure that no doubts were left unresolved, which helped students to understand the code and concepts in a much better way.  The applications that were developed involved Text Recognition, Todo app, Calculator, Image Recognition, Weather app, Currency converter app, google sign-in and many other beguiling apps. The instructors also provided an environment of healthy competition by announcing a  cash prize to the student who would develop a grossing News app. Apart from the News app, prizes were also distributed to students who developed the maximum number of apps.
+          
+          All the participants were handed over the certificates, along with cool stickers and the workshop concluded on a happy note with a group photo!</p>
+</div>
+</div>
+
+    
+  </div> 
+</div>
 
       <div class="panel panel-default  each-heading hack">
           <div class="panel-heading " style="background:rgba(8, 195, 219, 0.562)">
@@ -320,7 +417,7 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
     setInterval(blink,500)
 
     scroll.addEventListener('click',()=>{
-      jump('.hack');
+      jump('.andml');
     })
 
     const e1 = document.getElementById('e1');
@@ -334,22 +431,24 @@ Under the guidance of Mr Saravjeet the workshop was organised by the students of
     const e5 = document.getElementById('e5');
     
     //const e6 = document.getElementById('e6');
-
-
     e1.addEventListener('click',()=>{
-      jump('.hack');
+      jump('.andml');
     })
 
     e2.addEventListener('click',()=>{
+      jump('.hack');
+    })
+
+    e3.addEventListener('click',()=>{
       jump('.aws');
     })
-    e3.addEventListener('click',()=>{
+    e4.addEventListener('click',()=>{
       jump('.app');
     })
-    e4.addEventListener('click',()=>{
+    e5.addEventListener('click',()=>{
       jump('.faculty');
     })
-    e5.addEventListener('click',()=>{
+    e6.addEventListener('click',()=>{
       jump('.tech');
     })
 
